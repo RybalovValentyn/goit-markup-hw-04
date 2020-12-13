@@ -15,18 +15,22 @@
     <link rel="stylesheet" href="./styles.css">
    </head>
 <body class="body-port">
-    <header class="head-container ">
+    <header class="head-container">
         <a href="index.html" class="logo"><span class="logo-web">Web</span>Studio</a>  
         <nav class="main-nav">  
          <ul class="nav-list">
-                <li><a href="./index.html" class="navigation">Студия</a></li>
-                <li><a href="./portfolio.html"class="navigation current" >Портфолио</a></li>
+                <li><a href="./index.html" class="navigation ">Студия</a></li>
+                <li><a href="./portfolio.html" class="navigation current" >Портфолио</a></li>
                 <li><a href="#kontact" class="navigation">Контакты</a></li>
          </ul>
         
          <ul class="nav-contact">
-             <li><a href="mailto:info@devstudio.com" class="navigation-contact mail">info@devstudio.com</a></li>
-             <li><a href="tel:+380961111111" class="navigation-contact tel">+38 096 111 11 11</a></li>
+             <li>
+             <a class="navigation-contact" href="mailto:info@devstudio.com">
+             <svg class="nav-mail"><use href="./images/sprite.svg#icon-mail "></use>
+             </svg>info@devstudio.com</a></li>
+             <li><a href="tel:+380961111111" class="navigation-contact">
+                 <svg class="nav-tel"> <use href="./images/sprite.svg#icon-tel"></use></svg> +38 096 111 11 11</a></li>
          </ul> 
         </nav>           
     </header>
@@ -108,18 +112,39 @@
                 <li><a class="footer-link footer-item" href="tel:+380991111111">+38 099 111 11 11</a></li>
             </ul>
         </div>
-        <div>
+        <div class="social-link-footer" >
             <em class="futer-text">Присоединяйтесь</em>
             <ul class="social">
-                <li class="social-item social-footer"> <a href="#" class="social-link instagram-footer"> </a></li>
-                <li class="social-item social-footer"><a href="#" class="social-link twitter-footer"> </a></li>
-                <li class="social-item social-footer"><a href="#" class="social-link facebook-footer"></a></li>
-                <li class="social-item social-footer"><a href="#" class="social-link linkedin-footer"></a></li>
+                <li class="social-item "> <a href="#" class="social-link social-footer">
+                    <svg class="social-link-icon" width="20" height="20" >
+                        <use href="./images/sprite.svg#icon-instagram-2" >
+
+                        </use>
+                    </svg>
+                </a></li>
+                <li class="social-item "><a href="#" class="social-link social-footer">
+                    <svg class="social-link-icon" width="20" height="20" >
+                        <use href="./images/sprite.svg#icon-twitter-1" >
+
+                        </use>
+                    </svg> </a></li>
+                <li class="social-item "><a href="#" class="social-link social-footer">
+                    <svg class="social-link-icon" width="20" height="20" >
+                        <use href="./images/sprite.svg#icon-facebook-1" >
+
+                        </use>
+                    </svg>
+                </a></li>
+                <li class="social-item "><a href="#" class="social-link social-footer">
+                    <svg class="social-link-icon" width="20" height="20" >
+                        <use href="./images/sprite.svg#icon-linkedin-1" >
+                        </use>
+                    </svg>
+                </a></li>
             </ul>
         </div>    
         </address>
     </footer>
-    
     
 </body>
 </html>
