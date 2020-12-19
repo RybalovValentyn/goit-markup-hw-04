@@ -8,12 +8,10 @@
 
 
 .body-port {
-    width: 1600px;
     font-family: roboto ,sans-serif;
     background-color: #FFFFFF;
 }
 .body {
-    width: 1600px;
     font-family: roboto ,sans-serif;
     background-color: #FFFFFF;
 }
@@ -28,6 +26,12 @@ li {
 }
 a {
     text-decoration: none;}
+
+.container {
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
     
 /* site-nav */
 .head-container {
