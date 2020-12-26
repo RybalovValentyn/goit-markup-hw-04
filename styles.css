@@ -477,7 +477,7 @@ footer {background-color: #2F303A;}
     font-size: 26px;
     line-height: 31px;
 }
-.footer-container li {
+.footer-container li:first-child {
      margin-top: 9px;
     margin-bottom: 9px;
 }
